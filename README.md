@@ -4,7 +4,7 @@ https://www.kaggle.com/c/made-thousand-facial-landmarks/
 
 Основное в решении:
 сменил ResNet18 на более мощный,
-нормальнизию на imagenet,
+нормализацию на imagenet,
 пробовал использовать Wing Loss (https://arxiv.org/pdf/1711.06753.pdf), а так же информацию из этого же пейпера, что для задачи  Facial Landmark Localisation, L1 и smooth L1 loss дают лучшее качестве чем L2.
 
 Аугментации (яркость/контраст/affine) - не улучшили
