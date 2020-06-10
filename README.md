@@ -1,10 +1,13 @@
 # MADE CV Homework #1 
+
+http://data.mail.ru/
+
 Thousand Facial Landmarks
 https://www.kaggle.com/c/made-thousand-facial-landmarks/
 
 Основное в решении:
-сменил ResNet18 на более мощный,
-нормализацию на imagenet,
+resnext101wsl,
+нормализация imagenet,
 пробовал использовать Wing Loss (https://arxiv.org/pdf/1711.06753.pdf), а так же информацию из этого же пейпера, что для задачи  Facial Landmark Localisation, L1 и smooth L1 loss дают лучшее качестве чем L2.
 
 Аугментации (яркость/контраст/affine) - не улучшили
